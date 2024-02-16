@@ -1,0 +1,16 @@
+I. Project/Repositories
+   A. VCFgenerator - 1) image of the workflow and the 2) pH circosplot output.
+   B. MolGraphs - 1) network image
+   C. AnalyzeBloodwork - 1) 3D linear regression plot
+   D. MultiOmicsWorkflows - 1) RNA Heatmap 2) Methylation Heatmap
+
+II. Lab Protocols
+   A. Halobacterium Culture.
+   B. Qiagen DNA/RNA/Protein extraction.
+   C. UV irradiation.
+
+III. Classes
+   A. BTEC 350 - Biostatistics
+   B. BTEC 330 - Computational Systems
+   C. BTEC 395 - Bioinformatics
+   D. BTEC 423 - Machine Learning with Bioinformatics Applications*
