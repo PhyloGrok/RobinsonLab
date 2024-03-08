@@ -1,0 +1,192 @@
+/* <!-- Styles for Home Page --> */
+/*
+ * Globals
+ */
+
+ body {
+  padding-left: 100px; /* Adjust as needed */
+  padding-right: 100px; /* Adjust as needed */
+}
+
+
+/* Links */
+
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  /* Cover Header */
+  .site-wrapper-inner {
+    vertical-align: middle;
+    padding-top: 50px;
+  }
+  
+
+}
+
+.separator {
+  border-top: 2px solid #ddd; /* Set the border style */
+  margin: 30px auto; /* Add margin for spacing */
+  width: 80%; /* Set the width of the separator */
+}
+
+/* <!-- Styles for Research Page --> */
+
+.carousel-container {
+
+  padding-left: 15px; /* Adjust as needed */
+  padding-right: 15px; /* Adjust as needed */
+  max-height: 600px; /* Set maximum height for the carousel container */
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+/* Change color of carousel control arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+/* Change color of carousel indicators' text */
+.carousel-indicators button {
+  filter: invert(50%);
+}
+
+
+.carousel-item {
+  height: 400px; /* Set height for carousel items */
+}
+.carousel-item svg {
+  height: 100%; /* Ensure SVG fills its parent container */
+}
+
+#myCarousel {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the carousel horizontally */
+  max-height: 600px;
+}
+.btn-sm {
+  padding: 5px 10px; /* Adjust padding as needed */
+  font-size: 14px; /* Adjust font size as needed */
+}
+.carousel-caption {
+  max-width: 40%; /* Ensure the caption doesn't exceed the image width */
+  padding: 20px; /* Add padding to the caption */
+}
+
+.square-image {
+  width:310px; /* Set the width of the square image */
+  height: 310px; /* Set the height of the square image */
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.category {
+    text-decoration: none;
+}
+
+.category-square {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+.category-content {
+    display: none;
+    transition: display 0.5s ease; /* Smooth transition effect */
+}
+
+.featurette-heading {
+    padding-top: 20px; /* Adjust the value as needed */
+    padding-bottom: 20px; /* Adjust the value as needed */
+}
+
+
+/* <!-- Styles for About Page --> */
+.container h1 {
+  font-size: 50px; /* You can adjust the font size value as needed */
+}
+.member-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.member-box {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card-body {
+        padding: 30px;
+    }
+
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+  }
+  
+  main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+  section {
+      width: calc(50% - 20px);
+      margin-bottom: 20px;
+  }
+  
+  footer {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+
+
+
+  #research-publications-card {
+    max-width: 100%;
+    overflow-x: hidden;
+    transition: max-width 0.5s;
+}
+
+#research-publications-card.collapsed {
+    max-width: 0;
+}
+
+.publication-content-container {
+  width: 100%; /* Set width to 100% to fill the column */
+  overflow: auto; /* Add scrollbars if content exceeds column width */
+}
+/* Adjusted column width */
+.col-md-4 {
+    flex: 0 0 30%; /* Adjusted to 30% width for the first column and 70% width for the second column */
+    max-width: 30%; /* Adjusted to 30% width for the first column and 70% width for the second column */
+}
+
